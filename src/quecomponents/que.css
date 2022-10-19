@@ -1,0 +1,53 @@
+.btn5{
+    color: white;
+    background-color:#062131;
+  
+    
+}
+
+.quebtn{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.quebtn{
+    padding:10px;
+    margin:10px
+}
+.box{
+    position: absolute;
+    top:40%;
+left:20%}
+.box1 {
+    
+    margin: 20px;
+  
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    
+}
+.box2 {
+   
+    margin: 20px;
+  
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+  
+    text-align:center;
+}
+
+.parts1 {
+    height:40px;
+    border: 2px solid green;
+    width: 90px;
+}
+.parts2 {
+    height:40px;
+    border: 2px solid green;
+    width: 90px;
+}

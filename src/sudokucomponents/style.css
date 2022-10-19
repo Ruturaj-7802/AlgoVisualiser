@@ -1,0 +1,102 @@
+sudokubody {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* .sudokubody {
+ display: flex;
+} */
+
+.rightBox {
+  
+
+  margin: 0 1.8% 0 0;
+  padding-bottom: 1rem;
+  height: 70%;
+  overflow: hidden;
+}
+
+.window {
+  
+  /* margin: 0 0 0 2%; */
+  padding-bottom: 1rem;
+  height: 70%;
+}
+
+.sudokuBoxContainer {
+ margin: 50px;
+
+}
+
+.sudokuBox {
+  display: inline-grid;
+  
+  cursor: pointer;
+}
+/* 
+.row {
+  height: 52px;
+  display: flex;
+  border: 1px solid black;
+} */
+
+.sbox {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+  background-color: #fcfbf4;
+  border: 1px solid;
+  font-size: 30px;
+}
+
+input {
+  resize: none;
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+}
+
+textarea {
+  resize: none;
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+}
+
+textarea:focus {
+  background-color: #f9f4c7;
+  color: transparent;
+  text-shadow: 0px 0px 0px #666;
+}
+textarea::-moz-selection {
+  background: #f9f4c7;
+}
+textarea::selection {
+  background: #f9f4c7;
+}
+
+.row:nth-child(3n+4) {
+  border-top: 2px solid;
+}
+
+.box:nth-child(3n+4) {
+  border-left: 2px solid;
+}
+
+.grid-choices{
+  border-top: 1px solid white;
+  background-color: #002543;
+  padding: 10px;
+  width: 100%;
+}
+.grid-choices button{
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+}
